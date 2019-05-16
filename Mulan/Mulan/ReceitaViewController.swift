@@ -15,12 +15,15 @@ class PaginaReceita: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        navigationItem.title = comidinha.nomeDaReceita
     }
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 3
     }
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        if section == 0 {
+            return 0
+        }
         return 40
     }
     
@@ -94,4 +97,5 @@ class PaginaReceita: UITableViewController {
         return UITableViewCell()
     }
 }
+
 

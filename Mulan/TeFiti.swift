@@ -14,6 +14,7 @@ typealias Tutorialz = [Tutorial]
 struct Tutorial: Codable {
     var dicas: String
     var nomedaimagem: String
+    var nomeDaDica: String
 }
 
 class Intern2: NSObject {
