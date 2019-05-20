@@ -30,7 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6F673F142282034C00506FD9 /* Coisine101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coisine101.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F673F142282034C00506FD9 /* Cuisine101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cuisine101.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F673F172282034D00506FD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F673F192282034D00506FD9 /* ReceitaasCellScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceitaasCellScroll.swift; sourceTree = "<group>"; };
 		6F673F1C2282034D00506FD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 		6F673F152282034C00506FD9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6F673F142282034C00506FD9 /* Coisine101.app */,
+				6F673F142282034C00506FD9 /* Cuisine101.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,9 +144,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6F673F132282034C00506FD9 /* Coisine101 */ = {
+		6F673F132282034C00506FD9 /* Cuisine101 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F673F292282034E00506FD9 /* Build configuration list for PBXNativeTarget "Coisine101" */;
+			buildConfigurationList = 6F673F292282034E00506FD9 /* Build configuration list for PBXNativeTarget "Cuisine101" */;
 			buildPhases = (
 				6F673F102282034C00506FD9 /* Sources */,
 				6F673F112282034C00506FD9 /* Frameworks */,
@@ -156,9 +156,9 @@
 			);
 			dependencies = (
 			);
-			name = Coisine101;
+			name = Cuisine101;
 			productName = Mulan;
-			productReference = 6F673F142282034C00506FD9 /* Coisine101.app */;
+			productReference = 6F673F142282034C00506FD9 /* Cuisine101.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -189,7 +189,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6F673F132282034C00506FD9 /* Coisine101 */,
+				6F673F132282034C00506FD9 /* Cuisine101 */,
 			);
 		};
 /* End PBXProject section */
@@ -416,7 +416,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F673F292282034E00506FD9 /* Build configuration list for PBXNativeTarget "Coisine101" */ = {
+		6F673F292282034E00506FD9 /* Build configuration list for PBXNativeTarget "Cuisine101" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6F673F2A2282034E00506FD9 /* Debug */,
