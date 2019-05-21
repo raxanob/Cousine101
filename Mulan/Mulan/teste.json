@@ -3,7 +3,7 @@
     "ingredientes": ["1 ovo (o tamanho que você tiver)", "1 colher de sopa de óleo", "Sal a gosto", " Pimenta do reino a gosto (opcional)"],
     "modoDePreparo": ["1. Primeiro pegue a frigideira que você tiver (de preferência  24 à 28 cm de diâmetro) e jogue um fio de óleo.", "\n 2. Coloque em cima de uma das bocas do fogão e ligue-o, em deixe o óleo esquentar por 30 segundos, cuidado para não deixar queimar.", "\n 3. Quebre com cuidado o ovo dentro da frigideira sem quebrar a gema (veja nosso tutorial de como quebrar uma gema) e tempere com sal e pimenta, se quiser e quanto quiser, lembrando que hipertensão é um problema sério.",
         "\n 4. Deixe fritando por aproximadamente 3 min ou até as bordas da clara começarem a ficar tostadinha (meio marronzinho).", "\n Obs: Para resultados diferentes na consistência da gema, deixe mais tempo (para gema mais dura) ou menos tempo (para gema mais cremosa). Quando tirar para não queimar? Quando as bordas ficarem muito escuras é hora de tirar para não queimar."],
-    "nomeDaImagem":"OvoFrito",
+    "nomeDaImagem":"OvoFrito2",
     "nomeDaReceita": "Ovo Frito"
 },
 {
@@ -22,7 +22,7 @@
     "ingredientes": ["1 filet de frango", "1 dente de alho (opcional, mas fica bem melhor com, vai por mim)", "Sal a gosto","Pimenta do reino (opcional)"],
     "modoDePreparo": ["ATENÇÃO! Para essa receita você vai precisar de uma frigideira e para sua segurança (e conforto na limpeza), uma tampa que você tiver. Também vamos precisar de uma faca para cortar o alho (ou espremedor de alho, caso tenha) e uma superfície para cortar o alho, tipo uma tábua, mas caso não tenha pode ser a pia mesmo.", "\n 1. Primeiro você precisa descascar o alho. Como? Pegue a tábua, o dente de alho (que é um gominho do alho), uma faca e apoie todos em cima da pia. Para descascar o alho, use a faca para tirar a pontinha mais achatada do alho para ser mais fácil de descascar e tire a casca até você ter o dente todo branco em mãos.", "\n 2. Pique o alho descascado deixando os pedaços menores que um grão de sal grosso.", "\n 3. Pegue o pedaço de filé que você vai querer fritar e esfregue nele o alho picado e um pouco de sal (em ambas as faces). Reserve.", "\n 4. Pegue uma frigideira e coloque um fio de olho (ou 1 colher de sopa se preferir), coloque em uma das bocas do fogão e ligue-o. Deixe o óleo esquentar por 20 segundos (é bom o óleo não estar muito quente para não espirrar óleo quente em você).", "\n 5. Coloque o filé com cuidado e tampe a frigideira.", "\n 6. Deixe fritar por 3 minutos então vire para que a outra face do filet fritar também, mas não esqueça de tampar. Repita até perder a cor branca e ficar dourado/amarronzado.", "\n 7. Pode servir."],
     "nomeDaImagem":"Frango",
-    "nomeDaReceita": "Frago"
+    "nomeDaReceita": "Frango"
 },
 {
     "ingredientes": ["Pó de café", "Água"],
