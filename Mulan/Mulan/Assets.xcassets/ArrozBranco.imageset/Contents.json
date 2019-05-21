@@ -2,15 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Arroz Branco_v3.png",
+      "filename" : "Arroz Branco.pdf",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Arroz Branco@2x.pdf",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Arroz Branco@3x.pdf",
       "scale" : "3x"
     }
   ],

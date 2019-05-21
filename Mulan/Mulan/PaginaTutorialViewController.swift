@@ -64,7 +64,7 @@ class PaginaTutorial: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if indexPath.section == 0 {
             if let cell = tableView.dequeueReusableCell(withIdentifier: "ImagemDicas", for: indexPath) as? ImagemDica {
-                cell.OutletImagemDica.image = UIImage(named: dicas.nomedaimagem)
+                cell.OutletImagemDica.image = UIImage(named: dicas.nomedaimagem2)
                 return cell
             }
             

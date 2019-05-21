@@ -2,15 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Panela de Pressão.png",
+      "filename" : "Panela de Pressão.pdf",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Panela de Pressão@2x.pdf",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Panela de Pressão@3x.pdf",
       "scale" : "3x"
     }
   ],

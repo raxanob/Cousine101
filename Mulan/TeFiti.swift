@@ -15,6 +15,7 @@ struct Tutorial: Codable {
     var dicas: String
     var nomedaimagem: String
     var nomeDaDica: String
+    var nomedaimagem2: String
 }
 
 class Intern2: NSObject {

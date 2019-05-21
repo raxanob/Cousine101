@@ -2,15 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Ovo Cozido_v2.png",
+      "filename" : "Ovo Cozido.pdf",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Ovo Cozido@2x.pdf",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Ovo Cozido@3x.pdf",
       "scale" : "3x"
     }
   ],

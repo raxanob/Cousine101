@@ -75,7 +75,7 @@ class PaginaReceita: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if indexPath.section == 0 {
             if let cell = tableView.dequeueReusableCell(withIdentifier: "ImagemComida", for: indexPath) as? ImagemCell {
-                cell.ImageView.image = UIImage(named: comidinha.nomeDaImagem)
+                cell.ImageView.image = UIImage(named: comidinha.nomeDaImagem2)
                 return cell
             }
             

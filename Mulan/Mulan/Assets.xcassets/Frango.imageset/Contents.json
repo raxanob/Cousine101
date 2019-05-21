@@ -2,15 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Frango_v3.png",
+      "filename" : "Frango.pdf",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Frango@2x.pdf",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Frango@3x.pdf",
       "scale" : "3x"
     }
   ],

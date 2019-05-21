@@ -16,6 +16,7 @@ struct Receitaz: Codable {
     var modoDePreparo: [String]
     var nomeDaImagem: String
     var nomeDaReceita: String
+    var nomeDaImagem2: String
 }
 
 class Intern: NSObject {
