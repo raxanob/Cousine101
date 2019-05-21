@@ -2,22 +2,14 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Frango Pagina.pdf",
-      "scale" : "1x"
-    },
-    {
-      "idiom" : "universal",
-      "filename" : "Frango Pagina@2x.pdf",
-      "scale" : "2x"
-    },
-    {
-      "idiom" : "universal",
-      "filename" : "Frango Pagina@3x.pdf",
-      "scale" : "3x"
+      "filename" : "Frango Pagina.pdf"
     }
   ],
   "info" : {
     "version" : 1,
     "author" : "xcode"
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
   }
 }
