@@ -3,13 +3,13 @@
         "ingredientes": ["1 ovo (o tamanho que você tiver)", "1 colher de sopa de óleo", "Sal a gosto", " Pimenta do reino a gosto (opcional)"],
         "modoDePreparo": ["1. Primeiro pegue a frigideira que você tiver (de preferência  24 à 28 cm de diâmetro) e jogue um fio de óleo (uma colher).", "\n 2. Coloque-a em cima de uma das bocas do fogão e ligue-o, deixando o óleo esquentar por 30 segundos, tomando cuidado para não deixar queimar.", "\n 3. Quebre com cuidado o ovo dentro da frigideira sem quebrar a gema (veja nosso tutorial de como quebrar um ovo) e tempere com sal e pimenta, se quiser e quanto quiser, lembrando que hipertensão é um problema sério.",
             "\n 4. Deixe fritando por aproximadamente 3 min ou até as bordas da clara começarem a ficar tostadinha (meio marronzinho).", "\n Obs: Para resultados diferentes na consistência da gema, deixe mais tempo (para gema mais dura) ou menos tempo (para gema mais cremosa). Quando tirar para não queimar? Quando as bordas ficarem muito escuras."],
-        "nomeDaImagem":"OvoFrito2",
-        "nomeDaImagem2": "OvoFritoPagina",
-        "nomeDaReceita": "Ovo Frito"
-    },
-    {
-        "ingredientes":["Ovo(s)", "Água", "Sal"],
-        "modoDePreparo": ["1. Pegue a quantidade de ovos que você vai querer consumir e uma panela funda (também serve uma leiteira, o negócio é ser funda o suficiente para caber os ovos e a água).", "\n 2. Coloque na panela os ovos e encha de água até que eles estejam cobertos por ela, e em seguida coloque a panela em uma das bocas do fogão e ligue-o para ferver a água.", "\n 3. Comece a contar o tempo quando a panela começar a borbulhar. Quanto tempo deixar? Vai depender de como você vai querer a consistência da sua gema. Gema bem dura: 12 minutos Gema dura: 10 minutos Gema cremosa: 7 minutos Gema cremosa mais mole: 5 minutos", "\n 4. Quando der o tempo, desligue o fogão e escorra a água na pia sem deixar os ovos cairem e deixe-os esfriarem.", "\n 5. Quando você conseguir segurar os ovos sem queimar a mão, escolha um dos ovos para começar a descascar. Bata de leve em uma superfície até a casca rachar. Com cuidado, pegue a casaca e comece a tirar como se fosse casquinha de machucado.", "\n 6. Coloque quanto sal você quiser, umas duas ou três sacudidas do saleiro são suficientes, e pode servir." ],
+    "nomeDaImagem":"OvoFrito2",
+    "nomeDaImagem2": "OvoFritoPagina",
+    "nomeDaReceita": "Ovo Frito"
+},
+{
+    "ingredientes":["Ovo(s)", "Água", "Sal"],
+    "modoDePreparo": ["1. Pegue a quantidade de ovos que você vai querer consumir e uma panela funda (também serve uma leiteira, o negócio é ser funda o suficiente para caber os ovos e a água).", "\n 2. Coloque na panela os ovos e encha de água até que eles estejam cobertos por ela, e em seguida coloque a panela em uma das bocas do fogão e ligue-o para ferver a água.", "\n 3. Comece a contar o tempo quando a panela começar a borbulhar. Quanto tempo deixar? Vai depender de como você vai querer a consistência da sua gema. Gema bem dura: 12 minutos Gema dura: 10 minutos Gema cremosa: 7 minutos Gema cremosa mais mole: 5 minutos", "\n 4. Quando der o tempo, desligue o fogão e escorra a água na pia sem deixar os ovos cairem e deixe-os esfriarem.", "\n 5. Quando você conseguir segurar os ovos sem queimar a mão, escolha um dos ovos para começar a descascar. Bata de leve em uma superfície até a casca rachar. Com cuidado, pegue a casaca e comece a tirar como se fosse casquinha de machucado.", "\n 6. Coloque quanto sal você quiser, umas duas ou três sacudidas do saleiro são suficientes, e pode servir." ],
         "nomeDaImagem":"OvoCozido",
         "nomeDaImagem2": "OvoCozidoPagina",
         "nomeDaReceita": "Ovo Cozido"
