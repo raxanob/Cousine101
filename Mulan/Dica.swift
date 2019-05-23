@@ -9,24 +9,25 @@
 import Foundation
 import UIKit
 
-typealias Tutorialz = [Tutorial]
+//typealias Tutorial = [Tutorialz]
 
-struct Tutorial: Codable {
+struct Dica: Codable {
+    var palavraschave: [String]
     var dicas: String
     var nomedaimagem: String
     var nomeDaDica: String
     var nomedaimagem2: String
 }
 
-class Intern2: NSObject {
-    static func getAllTutoriall() -> Tutorialz {
-        var tutoriall: Tutorialz = []
+class InternDica: NSObject {
+    static func getAllTutoriall() -> [Dica] {
+        var tutoriall: [Dica] = []
         do {
             if let path = Bundle.main.path(forResource: "teste2", ofType: "json", inDirectory: nil)
             {
                 let url = URL(fileURLWithPath: path)
                 let tutoriallData = try Data(contentsOf: url)
-                tutoriall = try JSONDecoder().decode(Tutorialz.self, from: tutoriallData)
+                tutoriall = try JSONDecoder().decode([Dica].self, from: tutoriallData)
                 return tutoriall
             }
         } catch {

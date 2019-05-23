@@ -7,11 +7,11 @@
 //
 
 import Foundation
+import UIKit
 
+//typealias Receitasz = [Receita]
 
-typealias Receitasz = [Receitaz]
-
-struct Receitaz: Codable {
+struct Receita: Codable {
     var ingredientes: [String]
     var modoDePreparo: [String]
     var nomeDaImagem: String
@@ -19,15 +19,15 @@ struct Receitaz: Codable {
     var nomeDaImagem2: String
 }
 
-class Intern: NSObject {
-    static func getAllRecepies() -> Receitasz {
-        var recepies: Receitasz = []
+class InternReceita: NSObject {
+    static func getAllRecepies() -> [Receita] {
+        var recepies: [Receita] = []
         do {
             if let path = Bundle.main.path(forResource: "teste", ofType: "json", inDirectory: nil)
             {
                 let url = URL(fileURLWithPath: path)
                 let recepiesData = try Data(contentsOf: url)
-                recepies = try JSONDecoder().decode(Receitasz.self, from: recepiesData)
+                recepies = try JSONDecoder().decode([Receita].self, from: recepiesData)
                 return recepies
             }
         } catch {

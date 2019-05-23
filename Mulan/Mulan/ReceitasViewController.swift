@@ -13,9 +13,9 @@ class ReceitaViewController: UITableViewController {
     let searchController = UISearchController(searchResultsController: nil)
     
 
-    var recepies: [Receitaz] = []
+    var recepies: [Receita] = []
     
-    var filtereceitas: [Receitaz] = []
+    var filtereceitas: [Receita] = []
     
     override func viewDidLoad() {
 //        tableView.estimatedRowHeight = 150
@@ -26,15 +26,14 @@ class ReceitaViewController: UITableViewController {
         searchController.searchResultsUpdater = self
         searchController.searchBar.tintColor = .init(red: 157/255, green: 20/255, blue: 28/255, alpha: 1)
         searchController.obscuresBackgroundDuringPresentation = false
-        searchController.searchBar.placeholder = "Pesquisar ingredientes"
+        searchController.searchBar.placeholder = "Pesquisar ingrediente"
         navigationItem.searchController = searchController
         definesPresentationContext = true
         
-        recepies = Intern.getAllRecepies()
+        recepies = InternReceita.getAllRecepies()
 
         tabBarController?.tabBar.unselectedItemTintColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
     }
-    
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if isFiltering(){
@@ -64,7 +63,7 @@ class ReceitaViewController: UITableViewController {
             recepie = filtereceitas[indexPath.row]
         }
         
-        if let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "PaginaReceita") as? PaginaReceita {
+        if let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "PaginaReceita") as? PaginaReceitaViewController {
             viewController.comidinha = recepie
             if let navigator = navigationController {
                 navigator.pushViewController(viewController, animated: true)
@@ -78,8 +77,8 @@ class ReceitaViewController: UITableViewController {
     }
     
     func filterContentForSearchText(_ searchText: String) {
-         filtereceitas = recepies.filter({( recepie : Receitaz) -> Bool in
-            for ingrediente in recepie.ingredientes {
+         filtereceitas = recepies.filter({( umaReceita : Receita) -> Bool in
+            for ingrediente in umaReceita.ingredientes {
                 if ingrediente.lowercased().contains(searchText.lowercased()){
                     return true
                 }

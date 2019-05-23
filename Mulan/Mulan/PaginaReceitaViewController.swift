@@ -11,7 +11,7 @@ import UIKit
 
 class PaginaReceitaViewController: UITableViewController {
     
-    var comidinha : Receitaz!
+    var comidinha : Receita!
     
     override func viewDidLoad() {
         super.viewDidLoad()

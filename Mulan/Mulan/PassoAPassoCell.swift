@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PassoAPasso: UITableViewCell {
+class PassoAPassoCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

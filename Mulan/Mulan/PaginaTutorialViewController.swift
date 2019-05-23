@@ -10,8 +10,8 @@ import Foundation
 import UIKit
 
 
-class PaginaTutorial: UITableViewController {
-    var dicas: Tutorial!
+class PaginaTutorialViewController: UITableViewController {
+    var dicas: Dica!
     
     
     override func viewDidLoad() {
@@ -63,14 +63,14 @@ class PaginaTutorial: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if indexPath.section == 0 {
-            if let cell = tableView.dequeueReusableCell(withIdentifier: "ImagemDicas", for: indexPath) as? ImagemDica {
+            if let cell = tableView.dequeueReusableCell(withIdentifier: "ImagemDicas", for: indexPath) as? ImagemDicaCell {
                 cell.OutletImagemDica.image = UIImage(named: dicas.nomedaimagem2)
                 return cell
             }
             
         }
         if indexPath.section == 1 {
-            if let cell2 = tableView.dequeueReusableCell(withIdentifier: "Dicas", for: indexPath) as? Dicas {
+            if let cell2 = tableView.dequeueReusableCell(withIdentifier: "Dicas", for: indexPath) as? TextDicaCell {
                 cell2.outletDicas.text = dicas.dicas
                 cell2.outletDicas.font = UIFont(name: "Arial", size: 20)
 

@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class Dicas: UITableViewCell {
+class TextDicaCell: UITableViewCell {
     
     @IBOutlet weak var outletDicas: UILabel!
     
