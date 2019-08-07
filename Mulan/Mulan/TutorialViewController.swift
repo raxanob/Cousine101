@@ -85,6 +85,8 @@ class TutorialViewController: UITableViewController {
 //
 //            return false
 //        })
+        
+//        fazer negocio do botao nessa parte (dica do app ferias)
         filterdicas = tutorial.filter({ (umaDica : Dica) -> Bool in
             for palavrachave in umaDica.palavraschave{
                 if palavrachave.lowercased().contains(searchText.lowercased()){
