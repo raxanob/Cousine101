@@ -23,7 +23,7 @@ class InternReceita: NSObject {
     static func getAllRecepies() -> [Receita] {
         var recepies: [Receita] = []
         do {
-            if let path = Bundle.main.path(forResource: "teste", ofType: "json", inDirectory: nil)
+            if let path = Bundle.main.path(forResource: NSLocalizedString("arquivoJson", comment: "nomeDoArquivoJson"), ofType: "json", inDirectory: nil)
             {
                 let url = URL(fileURLWithPath: path)
                 let recepiesData = try Data(contentsOf: url)
