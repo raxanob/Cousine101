@@ -26,7 +26,10 @@ class ReceitaViewController: UITableViewController {
         searchController.searchResultsUpdater = self
         searchController.searchBar.tintColor = .init(red: 157/255, green: 20/255, blue: 28/255, alpha: 1)
         searchController.obscuresBackgroundDuringPresentation = false
-        searchController.searchBar.placeholder = "Pesquisar ingrediente"
+//        searchController.searchBar.placeholder = "Pesquisar ingrediente"
+        
+        searchController.searchBar.placeholder = NSLocalizedString("Search ingredients", comment: "PlaceHolder dos ingredientes")
+        
         navigationItem.searchController = searchController
         definesPresentationContext = true
         
